@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>She Can Foundation</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo-section">
+            <img src="img/she-YlenJon1O7ieeEoa.avif" alt="Logo" class="logo">
+            <h1>She Can Foundation</h1>
+        </div>
+
+        <button onclick="toggleDarkMode()" class="dark-mode-btn">Dark Mode</button>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+
+        <h2>Welcome to <br> She Can Foundation</h2>
+
+        <p>
+            Join us in creating a safer, stronger, and more caring society through education,
+             awareness, community support, and social initiatives. Together, we can empower 
+             women, spread kindness, support street animals, and inspire positive change to 
+             build a brighter and better future for everyone.
+        </p>
+
+        <button onclick="showMessage()">
+            Join Us
+        </button>
+
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+
+        <div class="about-text">
+
+            <h2>About Us</h2>
+
+            <p>
+                She Can Foundation is a non-profit organization that works to 
+                support women and communities through education, awareness, and 
+                social initiatives. Our goal is to create equal opportunities and 
+                help people build a better future with confidence and support <br> 
+                The foundation believes that every woman deserves the chance to 
+                grow, learn, and succeed. Along with women empowerment, we also 
+                encourage kindness, community support, and positive social change 
+                through different activities and initiatives. <br> Together, we aim 
+                to create a safer, stronger, and more caring society for everyone.
+
+            </p>
+
+        </div>
+
+        <div class="about-image">
+            <img src="img/photo.jpg" alt="NGO Image">
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+
+        <p></p>
+        <div class="footer-links">
+
+            <!-- official links later -->
+            <a href="https://www.instagram.com/shecanfoundation.ngo" target="_blank">Instagram</a>
+
+            <a href="https://www.linkedin.com/company/shecanfoundation" target="_blank">LinkedIn</a>
+
+            <a href="https://shecanfoundation.org/" target="_blank">Official Website</a>
+
+        </div>
+
+        <p> © 2026 She Can Foundation — Empowering tomorrow, today. </p>
+        <p> This website was created as a frontend internship assignment/demo project.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+
+        function showMessage() {
+            alert("Thank you for joining She Can Foundation!\nTogether, we can create positive change :)");
+        }
+
+        function toggleDarkMode() {
+            document.body.classList.toggle("dark-mode");
+        }
+
+    </script>
+
+</body>
+</html>
